@@ -53,7 +53,7 @@ part 'app_route_data.g.dart';
 class AppShellRouteData extends StatefulShellRouteData {
   const AppShellRouteData();
 
-  static const String $restorationScopeId = 'like';
+  static final GlobalKey<NavigatorState> $navigatorKey = rootNavigatorKey;
 
   @override
   Widget builder(
@@ -77,8 +77,6 @@ class LikeBranch extends StatefulShellBranchData {
   const LikeBranch();
 
   static final GlobalKey<NavigatorState> $navigatorKey = likeNavigatorKey;
-
-  static const String $restorationScopeId = 'like';
 }
 
 class CartBranch extends StatefulShellBranchData {

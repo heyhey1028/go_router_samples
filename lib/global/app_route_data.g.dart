@@ -12,7 +12,6 @@ List<RouteBase> get $appRoutes => [
     ];
 
 RouteBase get $appShellRouteData => StatefulShellRouteData.$route(
-      restorationScopeId: AppShellRouteData.$restorationScopeId,
       factory: $AppShellRouteDataExtension._fromState,
       branches: [
         StatefulShellBranchData.$branch(
@@ -32,7 +31,6 @@ RouteBase get $appShellRouteData => StatefulShellRouteData.$route(
         ),
         StatefulShellBranchData.$branch(
           navigatorKey: LikeBranch.$navigatorKey,
-          restorationScopeId: LikeBranch.$restorationScopeId,
           routes: [
             GoRouteData.$route(
               path: '/like',
