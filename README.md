@@ -16,6 +16,8 @@ It'll be implemented in following steps.
 
 ## Sample
 Sample is structured to 
+![CleanShot 2023-12-08 at 22 12 48](https://github.com/heyhey1028/go_router_samples/assets/44666053/b964ca90-f419-4870-99f7-05da2296ad4b)
+
 
 Sample consists of four tabs 
 ![tab_bar](https://github.com/heyhey1028/go_router_samples/assets/44666053/046b5c5e-83d3-42b0-a55e-ec19a6060cc8)
