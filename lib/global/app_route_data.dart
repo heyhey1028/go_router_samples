@@ -105,6 +105,8 @@ class DetailRouteData extends GoRouteData {
 
   final Product? $extra;
 
+  static final GlobalKey<NavigatorState> $navigatorKey = rootNavigatorKey;
+
   @override
   Widget build(BuildContext context, GoRouterState state) {
     return ProductDetailScreen(product: $extra!);
