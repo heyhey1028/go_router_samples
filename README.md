@@ -2,7 +2,7 @@
 
 This is a sample repository dedicated for article below regarding the use of `StatefulShellRoute`.
 
-[link for articles]
+https://zenn.dev/flutteruniv_dev/articles/stateful_shell_route
 
 `StatefulShellRoute` is a new feature added to `go_router` package in 2024/07, which allows us to easily implement persisted bottom navigation and persisted state of each tabs.
 
